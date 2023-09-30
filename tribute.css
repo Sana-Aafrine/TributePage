@@ -1,0 +1,161 @@
+@media(prefers-reduced-motion:no-preference){
+    *{
+      scroll-behavior: smooth;
+    }
+  }
+  
+  html{
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  header>img{
+    width: 100%; 
+    max-height: 400px;
+  }
+  
+  header{
+    width: 100%;
+    min-height:200px;
+    min-width: 700px;
+    background-color: #737373;
+  }
+  
+  #navigation{
+    margin: 0;
+    padding:0;
+  }
+  
+  nav{
+    background-color:#404040;
+  }
+  nav>ul{
+    display: flex;
+    list-style-type: none;
+    align-items: stretch;
+    justify-content: center;
+    margin:0;
+    padding: 0;
+  }
+  
+  nav>ul>a,nav>ul>li{
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav>ul>a{
+    flex-basis: 100%;
+    padding: 7px;
+    text-align: center;
+    border-right: 1px solid #737373;
+  }
+
+  nav>ul>a:hover{
+    background-color:#292929;
+  }
+  
+  body{
+    padding:0;
+    margin:0;
+    min-width: 700px;
+    background-color: #D9D9D9;
+  }
+  
+  h1{
+    text-align: center;
+    color: #404040;
+  }
+  
+  #img-div{
+    margin: 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+  }
+  
+  #image{
+    max-width: 100%;
+    max-height: 550px;
+  }
+  
+  main{
+    padding: 0 10%;
+    margin:auto;
+    max-width: 900px;
+  }
+  
+  div{
+    background-color: white;
+    margin: 30px 0;
+    padding: 2px;
+  }
+  
+  #info{
+    background-color: #D9D9D9;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  p{
+    margin:0; 
+  }
+  
+  #about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+  }
+  
+  h2{
+    margin-top: 2px;
+    border-bottom: 1px solid #C9C9C9;
+    padding: 5px;
+    color: #212121;
+  }
+  
+  #E,#C,#A,#P{
+    margin: 5px;
+  }
+  
+  #about>div>p{
+    padding: 0 10px;
+    margin-bottom: 7px;
+  }
+  
+  #about>div>ul>li{
+    margin-bottom: 5px;
+  }
+  
+  footer{
+    background-color: #404040;
+    padding: 10px;
+  }
+  
+  footer *{
+    color: #C9C9C9;
+  }
+  
+  footer ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 0 30px;
+  }
+
+  footer ul li{
+    margin: 8px 0px;
+  }
+  
+  footer ul li:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+
+  }
+
+a{
+    text-decoration: none;
+  }
